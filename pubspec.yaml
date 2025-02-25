@@ -1,5 +1,5 @@
 name: network_queue_manager
-description: A starting point for Dart libraries or applications.
+description: A Flutter package for managing offline network requests and automatically retrying them when connectivity is restored.
 version: 1.0.0
 # repository: https://github.com/my_org/my_repo
 
