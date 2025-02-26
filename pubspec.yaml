@@ -1,15 +1,17 @@
 name: network_queue_manager
-description: A Flutter package for managing offline network requests and automatically retrying them when connectivity is restored.
-version: 1.0.0
-# repository: https://github.com/my_org/my_repo
-
+description: "Gerencie requisições offline no Flutter com fila automática e armazenamento no Hive."
+version: 0.0.1
+repository: https://github.com/MarciohsjOliveira/network_queue_manager
+issue_tracker: https://github.com/MarciohsjOliveira/network_queue_manager/issues
+homepage: https://github.com/MarciohsjOliveira/network_queue_manager
 environment:
-  sdk: ^3.0.6
-
-# Add regular dependencies here.
+  sdk: ">=3.7.0 <4.0.0"
 dependencies:
-  # path: ^1.8.0
-
+  flutter:
+    sdk: flutter
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
 dev_dependencies:
-  lints: ^2.0.0
+  flutter_lints: ^2.0.0
+  mocktail: ^1.0.0
   test: ^1.21.0

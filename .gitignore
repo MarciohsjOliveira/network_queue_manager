@@ -1,0 +1,44 @@
+# Flutter/Dart specific files
+.dart_tool/
+.packages
+pubspec.lock
+.idea/
+.vscode/
+build/
+
+# Mac OS specific files
+.DS_Store
+
+# IntelliJ specific files
+*.iml
+
+# Android Studio specific files
+local.properties
+
+# Flutter generated files
+flutter-*.png
+*.log
+
+# VS Code specific files
+.history/
+
+# Package specific files that shouldn't be tracked
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# Test coverage
+coverage/
+
+# Other system files
+*.aux
+*.out
+*.toc
+*.log
+*.synctex.gz
+*.pdf
+*.fdb_latexmk
+*.fls
+*.fdb_latexmk
+*.synctex.gz    
