@@ -8,7 +8,7 @@ import 'package:test/test.dart';
 class MockNetworkQueueRepository extends Mock implements NetworkQueueRepository {}
 
 void main() {
-  late AddRequestUseCaseImpl addRequestUseCase;
+  late AddRequestUseCase addRequestUseCase;
   late MockNetworkQueueRepository mockRepository;
 
   setUp(() {
@@ -26,3 +26,5 @@ void main() {
     verify(() => mockRepository.addRequest(request)).called(1);
   });
 }
+
+
