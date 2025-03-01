@@ -7,6 +7,7 @@ homepage: https://github.com/MarciohsjOliveira/network_queue_manager
 environment:
   sdk: ">=3.7.0 <4.0.0"
 dependencies:
+  coverage: ^1.11.1
   flutter:
     sdk: flutter
   hive: ^2.2.3

@@ -5,7 +5,6 @@ import '../repository/repository.dart';
 /// Interface para o caso de uso de obter requisições de rede pendentes.
 abstract class GetPendingRequestsUseCase {
   /// Obtém uma lista de requisições de rede pendentes.
-  ///
   /// Lança [DomainError] se ocorrer um erro ao obter as requisições.
   Future<List<NetworkRequest>> call();
 }

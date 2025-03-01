@@ -5,7 +5,7 @@ import '../repository/repository.dart';
 /// Interface para o caso de uso de adicionar uma requisição de rede.
 abstract class AddRequestUseCase {
   /// Adiciona uma requisição de rede.
-  /// 
+  ///
   /// Lança [DomainError] se a requisição for inválida ou se ocorrer um erro ao adicionar a requisição.
   Future<void> call(NetworkRequest request);
 }
@@ -17,7 +17,7 @@ class AddRequestUseCaseImpl implements AddRequestUseCase {
   /// Construtor que aceita um repositório de fila de rede.
   const AddRequestUseCaseImpl({required NetworkQueueRepository repository})
     : _repository = repository;
-    
+
   @override
   Future<void> call(NetworkRequest request) async {
     // Validação adicional da requisição

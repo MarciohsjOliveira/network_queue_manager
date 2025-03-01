@@ -24,6 +24,7 @@ class ProcessQueueUseCaseImpl implements ProcessQueueUseCase {
     } catch (e) {
       // Tratamento de erros ao processar a fila
       throw DomainError('Erro ao processar a fila de requisições: ${e.toString()}');
+
     }
   }
 }
